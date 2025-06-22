@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: ECE9DA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SeeInfoController">
+   <children>
+      <Label fx:id="nameInfo" layoutX="27.0" layoutY="28.0" text="ASSET NAME" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="80.0" text="VALUE" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="150.0" text="LOCATION" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="185.0" text="DESCRIPTION" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="115.0" text="CATEGORY" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="315.0" prefWidth="132.0" text="PURCHASE DATE" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="warrantyInfo" layoutX="27.0" layoutY="350.0" prefHeight="19.0" prefWidth="169.0" text="WARRANTY EXPIRATION" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="valueInfo" layoutX="233.0" layoutY="80.0" text="TEXT" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="categoryInfo" layoutX="233.0" layoutY="115.0" text="TEXT" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="locationInfo" layoutX="233.0" layoutY="150.0" text="TEXT" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptionInfo" layoutX="42.0" layoutY="210.0" text="TEXT" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="purchaseInfo" layoutX="233.0" layoutY="315.0" text="TEXT" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="warrantyInfo" layoutX="233.0" layoutY="350.0" text="TEXT" textFill="#5e5e5e">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: ECE9DA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AddAssetController">
+   <children>
+      <Label layoutX="27.0" layoutY="28.0" text="ADD ASSET" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="76.0" text="ASSET NAME *" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="assetName" layoutX="26.0" layoutY="95.0" prefHeight="11.0" prefWidth="187.0" promptText="box #1, closet, etc." style="-fx-background-color: FFFFFF;">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="27.0" layoutY="337.0" mnemonicParsing="false" onAction="#submitAsset1" prefHeight="0.0" prefWidth="96.0" style="-fx-background-color: E67C73;" text="CREATE" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font></Button>
+      <Button layoutX="150.0" layoutY="337.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="96.0" style="-fx-background-color: F2BDB9;" text="DISCARD" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font></Button>
+      <Label layoutX="26.0" layoutY="136.0" text="CATEGORY *" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="136.0" text="LOCATION *" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="categoryDropDown" layoutX="26.0" layoutY="155.0" prefWidth="150.0" style="-fx-background-color: ffffff;" />
+      <ComboBox fx:id="locationDropDown" layoutX="213.0" layoutY="155.0" prefWidth="150.0" style="-fx-background-color: ffffff;" />
+      <TextField fx:id="assetValue" layoutX="248.0" layoutY="95.0" prefHeight="29.0" prefWidth="115.0" promptText="\$0" style="-fx-background-color: FFFFFF;">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="248.0" layoutY="76.0" text="VALUE" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="196.0" text="DESCRIPTION" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="assetDescription" layoutX="26.0" layoutY="215.0" prefHeight="48.0" prefWidth="337.0" style="-fx-background-color: ffffff;">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </TextArea>
+      <DatePicker fx:id="assetPurchaseDate" layoutX="26.0" layoutY="290.0" prefHeight="31.0" prefWidth="150.0" />
+      <Label layoutX="26.0" layoutY="271.0" prefWidth="132.0" text="PURCHASE DATE" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="assetWarrantyExp" layoutX="213.0" layoutY="290.0" prefHeight="31.0" prefWidth="150.0" />
+      <Label layoutX="195.0" layoutY="271.0" prefHeight="19.0" prefWidth="169.0" text="WARRANTY EXPIRATION" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

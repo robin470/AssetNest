@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: ECE9DA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SearchController">
+   <children>
+      <Label layoutX="27.0" layoutY="28.0" text="SEARCH" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchKeyword" layoutX="195.0" layoutY="29.0" prefHeight="29.0" prefWidth="173.0" promptText="Key word or phrase" style="-fx-background-color: ffffff;">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </TextField>
+      <ListView fx:id="resultList" layoutX="29.0" layoutY="186.0" prefHeight="140.0" prefWidth="343.0" style="-fx-background-color: ffffff;" />
+      <Button layoutX="26.0" layoutY="337.0" mnemonicParsing="false" onAction="#seeInfo" prefHeight="0.0" prefWidth="96.0" style="-fx-background-color: E67C73;" text="SEE INFO" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="157.0" layoutY="131.0" mnemonicParsing="false" onAction="#searchAsset" prefHeight="29.0" prefWidth="77.0" style="-fx-background-color: E67C73;" text="Search" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="272.0" layoutY="337.0" mnemonicParsing="false" onAction="#deleteAsset" prefHeight="0.0" prefWidth="96.0" style="-fx-background-color: E67C73;" text="DELETE" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="27.0" layoutY="160.0" text="RESULTS" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="70.0" text="FILTER BY CATEGORY" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="filterCategory" layoutX="26.0" layoutY="89.0" prefHeight="31.0" prefWidth="151.0" style="-fx-background-color: ffffff;" />
+      <ComboBox fx:id="filterLocation" layoutX="206.0" layoutY="89.0" prefHeight="31.0" prefWidth="151.0" style="-fx-background-color: ffffff;" />
+      <Label layoutX="208.0" layoutY="70.0" text="FILTER BY LOCATION" textFill="#e67c73">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="170.0" layoutY="337.0" mnemonicParsing="false" onAction="#editAsset" prefHeight="0.0" prefWidth="96.0" style="-fx-background-color: E67C73;" text="EDIT" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="317.0" layoutY="131.0" mnemonicParsing="false" onAction="#clear" prefHeight="29.0" prefWidth="77.0" style="-fx-background-color: E67C73;" text="Clear" textFill="#ece9da">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
