@@ -28,4 +28,4 @@ Currently, this application can only switch between a static "Home" page and a s
 
 ## Authors
 
-Jayce Lee
+Robin Goswami
