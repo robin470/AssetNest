@@ -1,11 +1,8 @@
 # ASSETNEST
 
-**NOTE: This file is to be deleted upon Canvas submission!** An application to track your assets, locations, and warranties.
-
 ## Description
 
-Currently, this application can only switch between a static "Home" page and a static "Add Category" page. On the "Add Category" page, text can be entered and buttons can be clicked, but they will not produce any output.
-
+An application to track your assets, locations, and warranties.
 
 ### Installing
 
